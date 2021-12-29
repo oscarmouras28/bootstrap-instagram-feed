@@ -2,7 +2,77 @@
     padding: 0;
     margin: 0;
     background-color: white;
+    text-decoration: none;
+    color: black;
 }
 a{
     font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+}
+#perfil{
+    height: auto;
+}
+#feed{
+    width: 50%;
+    height: 40%;
+}
+#pills-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(207, 207, 207);
+}
+#pills-tab{
+    display: flex;
+    justify-content: center;
+}
+.post-footer .buttons{
+    display:flex;
+    font-size: 30px;
+}
+.post-footer .button-group{
+    padding-left: 2%;
+    width: 91%;
+}
+.post-head{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic{
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.post-head h2{
+    margin: 0;
+    width: 20%;
+}
+.post-head P{
+    margin:0px;
+}
+.ellipsis{
+    font-size: large;
+}
+.post-footer p{
+    margin: 5px;
+}
+.desc{
+    display: flex
+}
+.desc strong{
+    margin: 0px;
+    padding: 0px;
+    height: 0%;
+    float: left;
+}
+.desc p{
+    float: left;
+}
+#like:active{
+    fill: red;
+    fill-opacity: inherit;
 }
